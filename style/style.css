@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+
+#rgb-color, #status {
+    font-size: x-large;
+}
+
+.color-block {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.color-block:first-child {
+    background-color: RGB(255, 0, 0);
+}
+
+.color-block:nth-child(2) {
+    background-color: RGB(255, 255, 0);
+}
+
+.color-block:nth-child(3) {
+    background-color: RGB(0, 255, 0);
+}
+
+.color-block:nth-child(4) {
+    background-color: RGB(0, 255, 255);
+}
+
+.color-block:nth-child(5) {
+    background-color: RGB(0, 0, 255);
+}
+
+.color-block:nth-child(6) {
+    background-color: RGB(255, 0, 255);
+}
